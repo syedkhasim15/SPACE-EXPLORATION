@@ -1,0 +1,278 @@
+<asteroids>
+  <asteroid>
+    <name>433 Eros</name>
+    <size>34.4 kilometers</size>
+    <speed>25.26 km/s</speed>
+    <nearest_distance>0.15 AU</nearest_distance>
+    <probability>0.00016%</probability>
+    <year>2000</year>
+  </asteroid>
+  <asteroid>
+    <name>69230 Hermes</name>
+    <size>0.8 kilometers</size>
+    <speed>18.98 km/s</speed>
+    <nearest_distance>0.05 AU</nearest_distance>
+    <probability>0.000002%</probability>
+    <year>2003</year>
+  </asteroid>
+  <asteroid>
+    <name>4179 Toutatis</name>
+    <size>4.6 kilometers</size>
+    <speed>13.9 km/s</speed>
+    <nearest_distance>0.04 AU</nearest_distance>
+    <probability>0.000000000002%</probability>
+    <year>2004</year>
+  </asteroid>
+  <asteroid>
+    <name>99942 Apophis</name>
+    <size>0.325 kilometers</size>
+    <speed>30.7 km/s</speed>
+    <nearest_distance>0.08 AU</nearest_distance>
+    <probability>0.0000027%</probability>
+    <year>2004</year>
+  </asteroid>
+  <asteroid>
+    <name>143649 Atira</name>
+    <size>1.2 kilometers</size>
+    <speed>22.14 km/s</speed>
+    <nearest_distance>0.14 AU</nearest_distance>
+    <probability>0.00007%</probability>
+    <year>2003</year>
+  </asteroid>
+  <asteroid>
+    <name>14827 Hypnos</name>
+    <size>6.3 kilometers</size>
+    <speed>13.79 km/s</speed>
+    <nearest_distance>0.02 AU</nearest_distance>
+    <probability>0.0000046%</probability>
+    <year>2004</year>
+  </asteroid>
+  <asteroid>
+    <name>3200 Phaethon</name>
+    <size>5.1 kilometers</size>
+    <speed>31.3 km/s</speed>
+    <nearest_distance>0.02 AU</nearest_distance>
+    <probability>0.000006%</probability>
+    <year>2007</year>
+  </asteroid>
+  <asteroid>
+    <name>86039 1999 NC43</name>
+    <size>0.49 kilometers</size>
+    <speed>23.27 km/s</speed>
+    <nearest_distance>0.02 AU</nearest_distance>
+    <probability>0.000006%</probability>
+    <year>2002</year>
+  </asteroid>
+  <asteroid>
+    <name>4179 Toutatis</name>
+    <size>4.6 kilometers</size>
+    <speed>13.9 km/s</speed>
+    <nearest_distance>0.04 AU</nearest_distance>
+    <probability>0.000000000002%</probability>
+    <year>2008</year>
+  </asteroid> 
+
+    <asteroid>
+      <name>341843 Dydimos</name>
+      <size>780 meters</size>
+      <speed>16.77 km/s</speed>
+      <nearest_distance>0.0014 AU</nearest_distance>
+      <probability>0.000001%</probability>
+      <year>2009</year>
+    </asteroid>
+    <asteroid>
+      <name>2009 FD</name>
+      <size>47 meters</size>
+      <speed>7.5 km/s</speed>
+      <nearest_distance>0.0003 AU</nearest_distance>
+      <probability>0.000000008%</probability>
+      <year>2009</year>
+    </asteroid>
+    <asteroid>
+      <name>2010 AL30</name>
+      <size>10-15 meters</size>
+      <speed>12.2 km/s</speed>
+      <nearest_distance>0.0003 AU</nearest_distance>
+      <probability>0.00000002%</probability>
+      <year>2010</year>
+    </asteroid>
+    <asteroid>
+      <name>2010 TK7</name>
+      <size>300 meters</size>
+      <speed>1.05 km/s</speed>
+      <nearest_distance>0.2 AU</nearest_distance>
+      <probability>0.0000000001%</probability>
+      <year>2010</year>
+    </asteroid>
+    <asteroid>
+      <name>2011 AG5</name>
+      <size>140 meters</size>
+      <speed>14.84 km/s</speed>
+      <nearest_distance>0.0064 AU</nearest_distance>
+      <probability>0.00001%</probability>
+      <year>2011</year>
+    </asteroid>
+    <asteroid>
+      <name>2012 TC4</name>
+      <size>10-30 meters</size>
+      <speed>7.8 km/s</speed>
+      <nearest_distance>0.0002 AU</nearest_distance>
+      <probability>0.00000000000003%</probability>
+      <year>2012</year>
+    </asteroid>
+    <asteroid>
+      <name>2013 ET</name>
+      <size>100 meters</size>
+      <speed>18.6 km/s</speed>
+      <nearest_distance>0.007 AU</nearest_distance>
+      <probability>0.00001%</probability>
+      <year>2013</year>
+    </asteroid>
+    <asteroid>
+      <name>2014 JO25</name>
+      <size>650 meters</size>
+      <speed>34.4 km/s</speed>
+      <nearest_distance>0.010 AU</nearest_distance>
+      <probability>0.0000004%</probability>
+      <year>2014</year>
+    </asteroid>
+    <asteroid>
+      <name>2014 UR116</name>
+      <size>400 meters</size>
+      <speed>13.5 km/s</speed>
+      <nearest_distance>0.01 AU</nearest_distance>
+      <probability>0.00003%</probability>
+      <year>2014</year>
+    </asteroid>
+    <asteroid>
+      <name>2015 TB145</name>
+      <size>625 meters</size>
+      <speed>35 km/s</speed>
+      <nearest_distance>0.003 AU</nearest_distance>
+      <probability>0.00001%</probability>
+      <year>2015</year>
+    </asteroid>
+
+    <asteroid>
+      <name>162082 (1998 HL1)</name>
+      <size>0.91 km</size>
+      <speed>14.8 km/s</speed>
+      <nearest_distance>0.016 AU</nearest_distance>
+      <probability>0.000028%</probability>
+      <year>2016</year>
+    </asteroid>
+    <asteroid>
+      <name>4953 (1990 MU)</name>
+      <size>1.2 km</size>
+      <speed>21.2 km/s</speed>
+      <nearest_distance>0.012 AU</nearest_distance>
+      <probability>0.000022%</probability>
+      <year>2016</year>
+    </asteroid>
+    <asteroid>
+      <name>3361 Orpheus (1982 DB)</name>
+      <size>2.4 km</size>
+      <speed>19.8 km/s</speed>
+      <nearest_distance>0.082 AU</nearest_distance>
+      <probability>0.000012%</probability>
+      <year>2017</year>
+    </asteroid>
+    <asteroid>
+      <name>52768 (1998 OR2)</name>
+      <size>2.6 km</size>
+      <speed>8.69 km/s</speed>
+      <nearest_distance>0.042 AU</nearest_distance>
+      <probability>0.000007%</probability>
+      <year>2018</year>
+    </asteroid>
+    <asteroid>
+      <name>310442 (2000 CH59)</name>
+      <size>0.54 km</size>
+      <speed>15.22 km/s</speed>
+      <nearest_distance>0.009 AU</nearest_distance>
+      <probability>0.000035%</probability>
+      <year>2019</year>
+    </asteroid>
+    <asteroid>
+      <name>153201 (2000 WO107)</name>
+      <size>0.51 km</size>
+      <speed>12.4 km/s</speed>
+      <nearest_distance>0.020 AU</nearest_distance>
+      <probability>0.0000005%</probability>
+      <year>2019</year>
+    </asteroid>
+    <asteroid>
+      <name>2018 GE3</name>
+      <size>48-110 meters</size>
+      <speed>9.42 km/s</speed>
+      <nearest_distance>0.0002 AU</nearest_distance>
+      <probability>0.00021%</probability>
+      <year>2020</year>
+    </asteroid>
+    <asteroid>
+      <name>481394 (2006 SF6)</name>
+      <size>0.41 km</size>
+      <speed>17.08 km/s</speed>
+      <nearest_distance>0.042 AU</nearest_distance>
+      <probability>0.000005%</probability>
+      <year>2020</year>
+    </asteroid>
+
+      <asteroid>
+        <name>231937 (2001 FO32)</name>
+        <size>0.767 km</size>
+        <speed>123,887 km/h</speed>
+        <distance>2,016,158 km</distance>
+        <probability>0.0%</probability>
+        <year>2021</year>
+      </asteroid>
+      <asteroid>
+        <name>458732 (2011 MD)</name>
+        <size>0.079 km</size>
+        <speed>54,919 km/h</speed>
+        <distance>4,622,107 km</distance>
+        <probability>0.0%</probability>
+        <year>2022</year>
+      </asteroid>
+      <asteroid>
+        <name>52768 (1998 OR2)</name>
+        <size>2.8 km</size>
+        <speed>31,320 km/h</speed>
+        <distance>16,763,554 km</distance>
+        <probability>0.0000057%</probability>
+        <year>2022</year>
+      </asteroid>
+      <asteroid>
+        <name>465824 (2010 FR)</name>
+        <size>0.057 km</size>
+        <speed>29,668 km/h</speed>
+        <distance>10,752,102 km</distance>
+        <probability>0.000043%</probability>
+        <year>2022</year>
+      </asteroid>
+      <asteroid>
+        <name>471325 (2011 BT15)</name>
+        <size>0.132 km</size>
+        <speed>48,238 km/h</speed>
+        <distance>2,353,156 km</distance>
+        <probability>0.0%</probability>
+        <year>2022</year>
+      </asteroid>
+      <asteroid>
+        <name>481394 (2006 SF6)</name>
+        <size>0.465 km</size>
+        <speed>52,774 km/h</speed>
+        <distance>1,317,273 km</distance>
+        <probability>0.0%</probability>
+        <year>2021</year>
+      </asteroid>
+      <asteroid>
+        <name>4953 (1990 MU)</name>
+        <size>1.1 km</size>
+        <speed>31,247 km/h</speed>
+        <distance>14,231,610 km</distance>
+        <probability>0.0%</probability>
+        <year>2016</year>
+      </asteroid>    
+
+</asteroids>

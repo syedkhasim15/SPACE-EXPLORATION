@@ -1,0 +1,875 @@
+{
+	"title": "EONET Events: Volcanoes",
+	"description": "Related to both the physical effects of an eruption (rock, ash, lava) and the atmospheric (ash and gas plumes).",
+	"link": "https://eonet.gsfc.nasa.gov/api/v2.1/categories/12",
+	"events": [
+		{
+			"id": "EONET_6336",
+			"title": "Bezymianny Volcano, Russia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6336",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=300250"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-29T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						160.595,
+						55.972
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6338",
+			"title": "Ulawun Volcano, Papua New Guinea",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6338",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=252120"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-28T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						151.33,
+						-5.05
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6337",
+			"title": "Kita-loto Volcano, Japan",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6337",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=284110"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-27T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						141.284,
+						25.424
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6334",
+			"title": "Ibu Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6334",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=268030"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-20T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						127.63,
+						1.488
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6333",
+			"title": "Semisopochnoi Volcano, Alaska",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6333",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=311060"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-19T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						179.58,
+						51.93
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6332",
+			"title": "San Miguel Volcano, El Salvador",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6332",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=343100"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-03-09T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-88.269,
+						13.434
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6331",
+			"title": "Ambae Volcano, Vanuatu",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6331",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=257030"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-02-23T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						167.835,
+						-15.389
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6326",
+			"title": "Karangetang Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6326",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=267020"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-01-31T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						125.407,
+						2.781
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6319",
+			"title": "Lewotolok Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6319",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=264230"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-01-14T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						123.505,
+						-8.272
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6318",
+			"title": "Marapi Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6318",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=261140"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2023-01-10T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						100.474,
+						-0.38
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6309",
+			"title": "Nevado del Ruiz Volcano, Colombia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6309",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=351020"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-12-03T13:02:17Z",
+					"type": "Point",
+					"coordinates": [
+						-75.324,
+						4.892
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6293",
+			"title": "Villarica Volcano, Chile",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6293",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=357120"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-10-25T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-71.93,
+						-39.42
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6296",
+			"title": "Krakatau Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6296",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=262000"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-10-25T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						105.423,
+						-6.102
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6291",
+			"title": "Cotopaxi Volcano, Ecuador",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6291",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=352050"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-10-21T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-78.436,
+						-0.677
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6286",
+			"title": "Kerinci Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6286",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=261170"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-10-19T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						101.264,
+						1.697
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6255",
+			"title": "Yasur Volcano, Vanuatu",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6255",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=257100"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-08-31T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						169.447,
+						-19.532
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6175",
+			"title": "Stromboli Volcano, Italy",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6175",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=211040"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-08-07T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						15.213,
+						38.789
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6104",
+			"title": "Aira Volcano, Japan",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6104",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=282080"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-06-27T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						130.657,
+						31.593
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6102",
+			"title": "Ebeko Volcano, Russia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6102",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=290380"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-06-23T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						156.014,
+						50.686
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6105",
+			"title": "Sheveluch Volcano, Russia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6105",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=300270"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-06-21T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						161.36,
+						56.653
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_6017",
+			"title": "Popocatepetl Volcano, Mexico",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_6017",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=341090"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2022-02-08T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-98.622,
+						19.023
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_5959",
+			"title": "Great Sitkin Volcano, Andreanof Islands (U.S.)",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_5959",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "https://volcano.si.edu/volcano.cfm?vn=311120"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2021-10-19T09:49:45Z",
+					"type": "Point",
+					"coordinates": [
+						-176.13,
+						52.076
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_5202",
+			"title": "Merapi Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_5202",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=263250"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2021-01-07T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						110.446,
+						-7.54
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_4768",
+			"title": "Suwanosejima Volcano, Japan",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_4768",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=282030"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2020-07-12T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						129.71,
+						29.63
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_4624",
+			"title": "Santa Maria Volcano, Guatemala",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_4624",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=342030"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2020-03-18T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-91.552,
+						14.757
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_4561",
+			"title": "Semeru Volcano, Indonesia",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_4561",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=263300"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2020-01-18T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						112.922,
+						-8.108
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_4269",
+			"title": "Reventador Volcano, Ecuador",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_4269",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=352010"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2019-07-10T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-77.65,
+						-0.07
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_4156",
+			"title": "Sangay Volcano, Ecuador",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_4156",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=352090"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2019-03-26T09:19:10Z",
+					"type": "Point",
+					"coordinates": [
+						-78.341,
+						-2.005
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_2654",
+			"title": "Sabancaya Volcano, Peru",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_2654",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "EO",
+					"url": "https://earthobservatory.nasa.gov/NaturalHazards/event.php?id=90273"
+				},
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=354006"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2016-11-07T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-71.85,
+						-15.78
+					]
+				}
+			]
+		},
+		{
+			"id": "EONET_980",
+			"title": "Fuego Volcano, Guatemala",
+			"description": "",
+			"link": "https://eonet.gsfc.nasa.gov/api/v2.1/events/EONET_980",
+			"categories": [
+				{
+					"id": 12,
+					"title": "Volcanoes"
+				}
+			],
+			"sources": [
+				{
+					"id": "CEMS",
+					"url": "http://emergency.copernicus.eu/mapping/list-of-components/EMSR289"
+				},
+				{
+					"id": "EO",
+					"url": "https://earthobservatory.nasa.gov/NaturalHazards/event.php?id=91672"
+				},
+				{
+					"id": "GDACS",
+					"url": "http://www.gdacs.org/report.aspx?eventtype=VO&amp;eventid=512"
+				},
+				{
+					"id": "IDC",
+					"url": "https://disasterscharter.org/web/guest/-/volcano-in-guatemala-activation-576-"
+				},
+				{
+					"id": "NASA_DISP",
+					"url": "https://disasters.nasa.gov/mount-fuego-eruption-2018"
+				},
+				{
+					"id": "ReliefWeb",
+					"url": "https://reliefweb.int/disaster/vo-2018-000066-gtm"
+				},
+				{
+					"id": "SIVolcano",
+					"url": "http://volcano.si.edu/volcano.cfm?vn=342090"
+				}
+			],
+			"geometries": [
+				{
+					"date": "2002-01-04T00:00:00Z",
+					"type": "Point",
+					"coordinates": [
+						-90.88,
+						14.473
+					]
+				}
+			]
+		}
+	]
+}

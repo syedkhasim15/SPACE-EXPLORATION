@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+
+    .image {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+    }
+
+    .data {
+        padding: 30px;
+        height: 500px;
+    }
+
+    #img_sat {
+        height: 300px;
+        width: 400px;
+        margin: max(1rem, 3vw);
+        border: 0.35rem solid;
+        padding: 3vw;
+        border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+        animation: borderRotate var(--d) linear infinite forwards;
+        background-color: #6c66db70;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px 0 rgb(70, 59, 191);
+    }
+
+    #data_sat {
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(112, 206, 244);
+    }
+
+
+
+    @import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+    @property --angle {
+        syntax: '<angle>';
+        initial-value: 90deg;
+        inherits: true;
+    }
+
+    @property --gradX {
+        syntax: '<percentage>';
+        initial-value: 50%;
+        inherits: true;
+    }
+
+    @property --gradY {
+        syntax: '<percentage>';
+        initial-value: 0%;
+        inherits: true;
+    }
+
+    :root {
+        --d: 2500ms;
+        --angle: 90deg;
+        --gradX: 100%;
+        --gradY: 50%;
+        /* --c1: rgba(7, 5, 65, 0.907);
+  --c2: rgba(227, 238, 244, 0.911); */
+        /* 
+        --c1: rgb(255, 255, 255);
+        --c2: rgba(168, 239, 255, 0.1); */
+        --c1: rgb(255, 225, 0);
+        --c2: rgb(168, 239, 255);
+    }
+
+
+    @keyframes borderRotate {
+        100% {
+            --angle: 420deg;
+        }
+    }
+
+    @keyframes borderRadial {
+        20% {
+            --gradX: 100%;
+            --gradY: 50%;
+        }
+
+        40% {
+            --gradX: 100%;
+            --gradY: 100%;
+        }
+
+        60% {
+            --gradX: 50%;
+            --gradY: 100%;
+        }
+
+        80% {
+            --gradX: 0%;
+            --gradY: 50%;
+        }
+
+        100% {
+            --gradX: 50%;
+            --gradY: 0%;
+        }
+    }
+
+
+    #btn1{
+        margin-left: 500px;
+    }
+
+    #btn2{
+        margin-left: 230px;
+    }
+
+
+
+    button {
+       
+        border: 0px;
+        padding: 1rem 3rem;
+        letter-spacing: 1px;
+
+        background-image: linear-gradient(to right,
+                rgb(255, 255, 255) 0%,
+                rgba(146, 151, 240, 0.697) 20%,
+                rgba(181, 200, 249, 0.851) 30%,
+                rgba(100, 93, 230, 0.599) 40%,
+                rgba(73, 44, 238, 0.621) 80%,
+                rgba(83, 10, 255, 0.758) 90%,
+                rgba(34, 3, 134, 0.862) 100%);
+        background-size: 200% 200%;
+
+        background-color: rgba(255, 255, 255, 0.584);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+        animation: borders 5s ease-in-out alternate infinite,
+            shadows 6.5s ease-in-out alternate infinite,
+            letters 5s ease-in-out alternate infinite,
+            grow 7.5s ease-in-out alternate infinite, backgrounds 8s linear infinite;
+    }
+
+    @keyframes borders {
+        25% {
+            border-radius: 950px 550px 350px 950px / 350px 950px 550px 450px;
+        }
+
+        50% {
+            border-radius: 950px 250px 350px 950px / 350px 950px 350px 450px;
+        }
+
+        75% {
+            border-radius: 550px 550px 350px 150px / 350px 950px 350px 450px;
+        }
+
+        100% {
+            border-radius: 950px 250px 950px 250px / 250px 750px 250px 750px;
+        }
+    }
+
+    @keyframes shadows {
+        0% {
+            box-shadow: #48abe0 0 0 10px;
+        }
+
+        50% {
+            box-shadow: blueviolet 0 0 30px;
+        }
+
+        75% {
+            box-shadow: rebeccapurple 0 0 20px;
+        }
+
+        100% {
+            box-shadow: #48abe0 0 0 10px;
+        }
+    }
+
+    @keyframes backgrounds {
+        to {
+            background-position: -200% 0%;
+        }
+    }
+
+    @keyframes letters {
+        to {
+            letter-spacing: 5px;
+        }
+    }
+
+    @keyframes grow {
+        to {
+            transform: scale(0.85);
+        }
+    }
+</style>
+
+<body>
+
+    <div class="image">
+        <img id="img_sat" src="img/i_1.png" alt="">
+    </div>
+    <div class="button" >
+        <button id="btn1"> NEXT </button>
+        <button id="btn2"> PREV </button>
+     </div>
+    <div class="data">
+        <p id="data_sat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquid voluptas quam voluptates
+            eum beatae esse distinctio optio id quisquam perspiciatis in nisi illo asperiores, aut at. Deserunt beatae
+            id quos aliquam, molestiae magni dolor atque, recusandae dolores voluptatum non tempora autem delectus
+            magnam voluptas. Amet porro, harum exercitationem doloribus incidunt nemo iste minima dolorem aperiam
+            reprehenderit modi est rerum ex, possimus suscipit consectetur? Distinctio inventore temporibus facere saepe
+            minus aliquid molestiae? Placeat quasi illum ipsam, harum eius beatae nihil qui asperiores explicabo quidem!
+            Atque quibusdam hic fugit culpa nisi pariatur ab alias, corrupti commodi odio autem, quae iusto eligendi
+            animi! Ducimus, repellendus maxime! Perspiciatis laudantium aliquam debitis atque ipsum molestiae sapiente
+            nisi non adipisci itaque consectetur, sint excepturi totam suscipit veritatis quo! Dolor dicta aliquam
+            inventore vero voluptatem numquam? Velit ullam architecto adipisci voluptatibus ut veniam eaque sed
+            obcaecati eum porro vel impedit aut nam, officiis, numquam perspiciatis sunt, perferendis magnam sapiente.
+            Nisi veniam ipsa, placeat cum consectetur recusandae a ratione aut mollitia! Nulla omnis aut, neque quae
+            perspiciatis explicabo odit provident aliquam adipisci, saepe quibusdam voluptatibus totam. Asperiores vero
+            autem consectetur nostrum expedita, eius tempore nobis repellat qui excepturi sint aliquam tenetur nemo,
+            magnam cum laudantium hic nam. Earum sed recusandae quasi. Vitae, illum iste, adipisci ipsum veritatis
+            minima sit nisi ducimus nam praesentium id quidem explicabo deleniti ipsam fuga officiis nesciunt. Sed
+            obcaecati neque laborum mollitia vitae aut explicabo repellat reprehenderit ipsum ab animi, facilis
+            voluptatum eius amet deserunt quas quidem saepe nesciunt veritatis voluptate. Tempore, laboriosam tenetur
+            culpa cumque beatae nobis totam quod, atque dolorum, aliquam est sequi aperiam dicta? Tempore beatae dolorum
+            eveniet voluptates vitae in, eos odit illum! Mollitia eaque dolorum excepturi, aspernatur nihil praesentium
+            commodi, tenetur facere maxime est voluptate deserunt sunt, earum quia dolor eveniet saepe! Natus corporis
+            laborum, aut quas facere ex itaque placeat distinctio aliquam debitis autem quis laboriosam libero eum
+            pariatur sit vel optio molestiae. Fugiat vel, deleniti animi laudantium deserunt dolores, pariatur mollitia
+            beatae laboriosam, dolorem in saepe quod? Alias eaque qui, laudantium voluptatum reprehenderit provident
+            magnam? Fugiat odio asperiores nulla! Eos, impedit eveniet quidem blanditiis esse magni inventore dicta?
+            Cupiditate magni ullam hic explicabo nisi vero beatae quia culpa ea! Facilis assumenda libero illum esse
+            illo facere nobis animi impedit officiis culpa at eveniet, omnis, repellat deserunt minima ex ea voluptatum
+            ad vitae nemo maxime accusamus voluptatibus. Repellendus obcaecati natus eveniet nihil nam dolor laudantium
+            nostrum rerum!</p>
+    </div>
+
+</body>
+
+</html>

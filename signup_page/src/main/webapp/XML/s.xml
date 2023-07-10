@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+
+    <CD>
+        <TITLE>Commercial</TITLE>
+        <NAME>Landsat</NAME>
+        <COUNTRY>FRANCE</COUNTRY>
+        <USAGE>FRANCE</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>1994</YEAR>
+    </CD>
+
+        
+    <CD>
+        <TITLE>Geodesy</TITLE>
+        <NAME>KOMPSAT</NAME>
+        <COUNTRY>JAPAN</COUNTRY>
+        <USAGE>Columbia</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO)</ORBIT>
+        <YEAR>2001</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Commercial</TITLE>
+        <NAME>Proba</NAME>
+        <COUNTRY>INDIA</COUNTRY>
+        <USAGE>INDIA</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>1992</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Commercial</TITLE>
+        <NAME>WorldView</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <USAGE>USA</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>1990</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Open Data</TITLE>
+        <NAME>CartoSAT</NAME>
+        <COUNTRY>INDIA</COUNTRY>
+        <USAGE>UAE</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>1985</YEAR>
+    </CD>
+
+
+    <CD>
+        <TITLE>Open Data</TITLE>
+        <NAME>Sentinal</NAME>
+        <COUNTRY>JAPAN</COUNTRY>
+        <USAGE>JAPAN</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>2005</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Commercial</TITLE>
+        <NAME>GeoEye</NAME>
+        <COUNTRY>FRANCE</COUNTRY>
+        <USAGE>SOUTH ARFRICA</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>2002</YEAR>
+    </CD>
+
+
+
+    <CD>
+        <TITLE>Open Data</TITLE>
+        <NAME>PlanetScope</NAME>
+        <COUNTRY>RUSSIA</COUNTRY>
+        <USAGE>Columbia</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>2000</YEAR>
+    </CD>
+
+    
+    <CD>
+        <TITLE>Commercial</TITLE>
+        <NAME>Quickbird</NAME>
+        <COUNTRY>INDIA</COUNTRY>
+        <USAGE>INDIA</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>1986</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Open Data</TITLE>
+        <NAME>Radarsat</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <USAGE>MEXICO</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>2010</YEAR>
+    </CD>
+
+    
+    
+    <CD>
+        <TITLE>Geodesy</TITLE>
+        <NAME>RapidEye</NAME>
+        <COUNTRY>JAPAN</COUNTRY>
+        <USAGE>CHINA</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>1993</YEAR>
+    </CD>
+    
+
+    <CD>
+        <TITLE>Weather</TITLE>
+        <NAME>Terra</NAME>
+        <COUNTRY>RUSSIA</COUNTRY>
+        <USAGE>RUSSIA</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>1989</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Weather</TITLE>
+        <NAME>ResourcesSAT</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <USAGE>MEXICO</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>2007</YEAR>
+    </CD>
+    
+        <CD>
+        <TITLE>Ocean</TITLE>
+        <NAME>EnviSAT</NAME>
+        <COUNTRY>INDIA</COUNTRY>
+        <USAGE>SRILANKA</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>2005</YEAR>
+    </CD>
+
+
+    <CD>
+        <TITLE>Geodesy</TITLE>
+        <NAME>IKONOS</NAME>
+        <COUNTRY>FRANCE</COUNTRY>
+        <USAGE>FRANCE</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>1985</YEAR>
+    </CD>
+
+    <CD>
+        <TITLE>Geodesy</TITLE>
+        <NAME>Earth Observing-1 Mission</NAME>
+        <COUNTRY>RUSSIA</COUNTRY>
+        <USAGE>RUSSIA</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>1981</YEAR>
+    </CD>
+    
+        <CD>
+        <TITLE>Ocean</TITLE>
+        <NAME>Corona</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <USAGE>USA</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>1995</YEAR>
+    </CD>
+    
+        <CD>
+        <TITLE>Ocean</TITLE>
+        <NAME>Pleiades</NAME>
+        <COUNTRY>RUSSIA</COUNTRY>
+        <USAGE>Columbia</USAGE>
+        <ORBIT>Geostationary orbit (GEO)</ORBIT>
+        <YEAR>2001</YEAR>
+    </CD>
+    
+        
+    
+        <CD>
+        <TITLE>Geodesy</TITLE>
+        <NAME>China-Brazil Earth Resource Satellite</NAME>
+        <COUNTRY>JAPAN</COUNTRY>
+        <USAGE>KOREA</USAGE>
+        <ORBIT>Highly Elliptical Orbit (HEO)</ORBIT>
+        <YEAR>1999</YEAR>
+    </CD>
+    
+
+
+    <CD>
+        <TITLE>Weather</TITLE>
+        <NAME>Satellite Pout de la Terre(Spot)</NAME>
+        <COUNTRY>USA</COUNTRY>
+        <USAGE>BRAZIL</USAGE>
+        <ORBIT>Medium Earth Orbit (MEO):</ORBIT>
+        <YEAR>1985</YEAR>
+    </CD> 
+ </CATALOG>

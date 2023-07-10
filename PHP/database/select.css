@@ -1,0 +1,279 @@
+body{
+  
+  background-color: #061028;
+  /* 
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(266.37, 42%, 92%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(197.95, 38%, 74%) 0, transparent 55%); */
+}
+
+.con{
+  display: flex;
+  justify-content: center;
+}
+
+table
+{   
+    width: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* background-color: #f2f2f2; */
+    
+}
+
+#table-data{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      backdrop-filter: blur(17px) saturate(194%);
+    -webkit-backdrop-filter: blur(17px) saturate(194%);
+    background-color: rgba(226, 229, 232, 0.58);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    margin-bottom: 00px;
+   
+}
+table,th,td{
+border-collapse: collapse; 
+
+/* border: 4px solid white; */
+}
+
+th, td {
+text-align: left;
+font-size: 25px;
+padding: 10px
+}
+
+tr:hover{
+  background-color: rgba(183, 227, 251, 0.653);
+}
+
+td a:hover{
+
+  /* background-color: rgb(186, 199, 248); */
+  color: rgb(74, 0, 165);
+  font-weight: bold;
+  
+}
+
+
+
+th
+{
+background-color: black;
+color:white;
+}
+
+/* search button */
+#search_text{
+
+    margin-top: 20px;
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    width: 315px;
+    min-width: 50px;
+    max-width: 330px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.592);
+}
+
+#search_text:focus {
+  border: 3px solid #555;
+  background: rgba(214, 243, 250, 0.608);
+}
+
+.title {
+  margin: 1%;;    
+}
+
+
+.clg_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+#clg_logo {
+  height: 110px;
+  width: 70px;
+  margin-right: 13px;
+}
+
+.con{
+  margin-top: 40px;
+}
+
+.details{
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.in_cont{
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+.left{
+  display: flex;
+  justify-content: center;
+  padding: 0px
+}
+.left h4{
+  padding: 0px;
+  margin: 0px;
+}
+.right{
+display: flex;
+justify-content: center;
+}
+
+
+
+/* tr:nth-child(even) {
+background-color: #f2f2f2;
+} */
+
+a {
+text-decoration: none;
+color: #333333;
+}
+
+.btn{
+display: flex;
+justify-content: center;
+}
+
+
+
+.bt{
+  --c:  #227591; ; /* the color*/
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.592);
+  border-radius: 10px;
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.bt:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+  color: white;
+  font-weight: bold;;
+}
+.bt:active {
+  box-shadow: 0 0 9e9q inset rgb(29, 29, 32); 
+  background-color: var(--c);
+  color: #fff;
+}
+
+@media print {
+
+
+
+  th, td {
+
+    border: 1px solid black;
+
+    }
+
+
+  #bt1,#bt2,#bt3 {
+      display: none;
+  }
+  h1{
+    font-size: 20px;
+  }
+  #clg_logo {
+    height: 90px;
+    width: 70px;
+    margin-right: 13px;
+  }
+  .title {
+    margin: 2%;;    
+  }
+  .clg_title {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: top;
+    box-shadow: none;
+    border-radius: 0px
+  }
+
+  .bt{
+    display: none;
+  }
+
+  #search_text{
+
+    display: none;
+   }
+
+   #table-data{
+    box-shadow: none;
+        backdrop-filter: none;
+      -webkit-backdrop-filter:none;
+      background-color: none;
+      border-radius: 0px;
+      margin-bottom: 100px;
+     
+  }
+}
+
+@media screen and (max-width: 900px)
+{
+   .bt{
+    height: 40px;
+    width: 90px;
+   }
+
+   .clg_title {
+      width: 100%;
+   }
+
+   h1{
+      font-size: 25px;
+   }
+} 
+
+@media screen and (max-width: 374px)
+{
+   .bt{
+    height: 40px;
+    width: 60px;
+    font-size: 10px;
+   }
+
+   .clg_title {
+      width: 100%;
+   }
+
+   h1{
+      font-size: 25px;
+   }
+
+   #search_text{
+
+    width: 200px;
+   }
+} 
+

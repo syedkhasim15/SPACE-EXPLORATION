@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+html{
+    height: 100%;
+}
+h2{
+    text-align: center;
+}
+
+.card{
+    background: #000000d0;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+   -webkit-animation:flipinx 4s ease 0s 1 normal;
+-moz-animation:flipinx 4s ease 0s 1 normal;
+-ms-animation:flipinx 4s ease 0s 1 normal;
+animation:flipinx 4s ease 0s 1 normal;
+
+    
+}
+
+@-webkit-keyframes flipinx {
+0%{ opacity: 0; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(90deg); }
+40%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(-10deg); }
+70%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(10deg); }
+100%{ opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); }
+}
+
+@keyframes flipinx {
+0%{ opacity: 0; transform: perspective(400px) rotateX(90deg); }
+40%{ transform: perspective(400px) rotateX(-10deg); }
+70%{ transform: perspective(400px) rotateX(10deg); }
+100%{ opacity: 1; transform: perspective(400px) rotateX(0deg); }
+}
+
+body{
+    background: whitesmoke;
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+   /*  background: #0c47ff4f;*/
+    /* background-image: url('https://source.unsplash.com/1600x900/?landscape'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     background-image: url("beach_img.jpg");
+  	background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: rgb(161 163 188);
+    /* text-decoration: underline; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: none;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    background: cadetblue;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    
+}
+#search{
+    background: #7c7c7c6b;
+}
+.att{
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: rgba(254, 189, 132, 0.539);
+}
+.att p{
+    display: inline;
+    color: white;
+}
+.weather{
+    text-align: center;
+    color: aliceblue;
+}
+.attributes{
+    text-align: left;
+    padding-left: 300px;
+}
+#city{
+    font-size: 30px;
+}
+.weather img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(240, 248, 255, 0.408);
+}
+#temperature{
+    font-size: 50px;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.temp-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+#clouds{
+    font-size: 20px;
+    background: rgba(153, 205, 50, 0.778);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+main{
+    display: grid;
+    grid-column-gap: 25px;
+    grid-template-columns: 1fr 5px 1fr;
+    align-items: center;
+    margin: 0 50px;
+    color: white;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    margin: 20px 50px;
+    color: aliceblue;
+}
+.weekF{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cast-header{
+    color: aliceblue;
+    background: rgba(254, 189, 132, 0.539);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.divider1,.divider2{
+    background: rgba(254, 189, 132, 0.539);
+    height: 200px;
+    border-radius: 5px;
+}
+.divider2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: rgb(254, 189, 132);
+}
+.desc{
+    color: rgb(196, 255, 77);
+}

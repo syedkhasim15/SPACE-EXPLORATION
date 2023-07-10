@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #002C5F;
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 90px;
+
+ 
+    -webkit-animation:flipinx 3s ease 0s 1 normal;
+    -moz-animation:flipinx 3s ease 0s 1 normal;
+    -ms-animation:flipinx 3s ease 0s 1 normal;
+    animation:flipinx 3s ease 0s 1 normal;  
+        
+        
+}
+
+@-webkit-keyframes flipinx {
+    0%{ opacity: 0; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(90deg); }
+    40%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(-10deg); }
+    70%{ -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(10deg); }
+    100%{ opacity: 1; -webkit-transform: perspective(400px) rotateX(0deg); transform: perspective(400px) rotateX(0deg); }
+    }
+    
+    @keyframes flipinx {
+    0%{ opacity: 0; transform: perspective(400px) rotateX(90deg); }
+    40%{ transform: perspective(400px) rotateX(-10deg); }
+    70%{ transform: perspective(400px) rotateX(10deg); }
+    100%{ opacity: 1; transform: perspective(400px) rotateX(0deg); }
+    }
+
+.data {
+    margin-top: 30px;
+    padding: 60px;
+    
+}
+
+#img_sat {
+    height: 300px;
+    width: 400px;
+    margin: max(1rem, 3vw);
+    border: 0.35rem solid;
+    padding: 3vw;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+    background-color: #6c66db70;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgb(70, 59, 191);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.data_sat {
+    font-size: 24px;
+    line-height: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'font-family: Sono', sans-serif;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 60px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #CCCCCC;
+
+}
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 90deg;
+    inherits: true;
+}
+
+@property --gradX {
+    syntax: '<percentage>';
+    initial-value: 50%;
+    inherits: true;
+}
+
+@property --gradY {
+    syntax: '<percentage>';
+    initial-value: 0%;
+    inherits: true;
+}
+
+:root {
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    /* --c1: rgba(7, 5, 65, 0.907);
+  --c2: rgba(227, 238, 244, 0.911); */
+    /* 
+        --c1: rgb(255, 255, 255);
+        --c2: rgba(168, 239, 255, 0.1); */
+    --c1: rgb(255, 225, 0);
+    --c2: rgb(168, 239, 255);
+}
+
+
+@keyframes borderRotate {
+    100% {
+        --angle: 420deg;
+    }
+}
+
+@keyframes borderRadial {
+    20% {
+        --gradX: 100%;
+        --gradY: 50%;
+    }
+
+    40% {
+        --gradX: 100%;
+        --gradY: 100%;
+    }
+
+    60% {
+        --gradX: 50%;
+        --gradY: 100%;
+    }
+
+    80% {
+        --gradX: 0%;
+        --gradY: 50%;
+    }
+
+    100% {
+        --gradX: 50%;
+        --gradY: 0%;
+    }
+}
+
+
+#btn1 {
+    margin-left: 500px;
+    font-weight: bold;
+    
+}
+
+#btn2 {
+    margin-left: 230px;
+    font-weight: bold;
+}
+
+
+
+button {
+
+    border: 0px;
+    padding: 1rem 3rem;
+    letter-spacing: 1px;
+
+    background-image: linear-gradient(to right,
+            rgb(255, 255, 255) 0%,
+            rgba(146, 151, 240, 0.697) 20%,
+            rgba(181, 200, 249, 0.851) 30%,
+            rgba(100, 93, 230, 0.599) 40%,
+            rgba(73, 44, 238, 0.621) 80%,
+            rgba(83, 10, 255, 0.758) 90%,
+            rgba(34, 3, 134, 0.862) 100%);
+    background-size: 200% 200%;
+
+    background-color: rgba(255, 255, 255, 0.584);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    border-radius: 250px 750px 250px 750px / 750px 250px 750px 250px;
+    animation: borders 5s ease-in-out alternate infinite,
+        shadows 6.5s ease-in-out alternate infinite,
+        letters 5s ease-in-out alternate infinite,
+        grow 7.5s ease-in-out alternate infinite, backgrounds 8s linear infinite;
+}
+
+
+
+#name{
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+    font-variant: small-caps
+}
+
+@keyframes borders {
+    25% {
+        border-radius: 950px 550px 350px 950px / 350px 950px 550px 450px;
+    }
+
+    50% {
+        border-radius: 950px 250px 350px 950px / 350px 950px 350px 450px;
+    }
+
+    75% {
+        border-radius: 550px 550px 350px 150px / 350px 950px 350px 450px;
+    }
+
+    100% {
+        border-radius: 950px 250px 950px 250px / 250px 750px 250px 750px;
+    }
+}
+
+@keyframes shadows {
+    0% {
+        box-shadow: #48abe0 0 0 10px;
+    }
+
+    50% {
+        box-shadow: blueviolet 0 0 30px;
+    }
+
+    75% {
+        box-shadow: rebeccapurple 0 0 20px;
+    }
+
+    100% {
+        box-shadow: #48abe0 0 0 10px;
+    }
+}
+
+@keyframes backgrounds {
+    to {
+        background-position: -200% 0%;
+    }
+}
+
+@keyframes letters {
+    to {
+        letter-spacing: 5px;
+    }
+}
+
+@keyframes grow {
+    to {
+        transform: scale(0.85);
+    }
+}

@@ -1,0 +1,230 @@
+<temperatures>
+    <year value="1990">
+      <city name="Mumbai" avgTemp="29.2"/>
+      <city name="Delhi" avgTemp="25.7"/>
+      <city name="Kolkata" avgTemp="27.4"/>
+      <city name="Chennai" avgTemp="30.2"/>
+      <city name="Puducherry" avgTemp="28.1"/>
+    </year>
+    <year value="1991">
+      <city name="Mumbai" avgTemp="29.5"/>
+      <city name="Delhi" avgTemp="25.9"/>
+      <city name="Kolkata" avgTemp="27.8"/>
+      <city name="Chennai" avgTemp="30.1"/>
+      <city name="Puducherry" avgTemp="28.3"/>
+    </year>
+
+    <year value="1993">
+        <city name="Mumbai" avgTemp="29.1"/>
+        <city name="Delhi" avgTemp="25.5"/>
+        <city name="Kolkata" avgTemp="27.2"/>
+        <city name="Chennai" avgTemp="30.1"/>
+        <city name="Puducherry" avgTemp="28.0"/>
+      </year>
+      <year value="1994">
+        <city name="Mumbai" avgTemp="29.3"/>
+        <city name="Delhi" avgTemp="25.7"/>
+        <city name="Kolkata" avgTemp="27.5"/>
+        <city name="Chennai" avgTemp="30.3"/>
+        <city name="Puducherry" avgTemp="28.2"/>
+      </year>
+      <year value="1995">
+        <city name="Mumbai" avgTemp="29.4"/>
+        <city name="Delhi" avgTemp="25.9"/>
+        <city name="Kolkata" avgTemp="27.7"/>
+        <city name="Chennai" avgTemp="30.2"/>
+        <city name="Puducherry" avgTemp="28.4"/>
+      </year>
+      <year value="1996">
+        <city name="Mumbai" avgTemp="29.6"/>
+        <city name="Delhi" avgTemp="26.2"/>
+        <city name="Kolkata" avgTemp="27.9"/>
+        <city name="Chennai" avgTemp="30.5"/>
+        <city name="Puducherry" avgTemp="28.6"/>
+      </year>
+      <year value="1997">
+        <city name="Mumbai" avgTemp="29.8"/>
+        <city name="Delhi" avgTemp="26.5"/>
+        <city name="Kolkata" avgTemp="28.2"/>
+        <city name="Chennai" avgTemp="30.6"/>
+        <city name="Puducherry" avgTemp="28.8"/>
+      </year>
+      <year value="1998">
+        <city name="Mumbai" avgTemp="30.0"/>
+        <city name="Delhi" avgTemp="26.8"/>
+        <city name="Kolkata" avgTemp="28.4"/>
+        <city name="Chennai" avgTemp="30.9"/>
+        <city name="Puducherry" avgTemp="29.0"/>
+      </year>
+      <year value="1999">
+        <city name="Mumbai" avgTemp="30.2"/>
+        <city name="Delhi" avgTemp="27.1"/>
+        <city name="Kolkata" avgTemp="28.7"/>
+        <city name="Chennai" avgTemp="31.1"/>
+        <city name="Puducherry" avgTemp="29.2"/>
+      </year>
+      <year value="2000">
+        <city name="Mumbai" avgTemp="30.5"/>
+        <city name="Delhi" avgTemp="27.4"/>
+        <city name="Kolkata" avgTemp="29.0"/>
+        <city name="Chennai" avgTemp="31.3"/>
+        <city name="Puducherry" avgTemp="29.5"/>
+      </year>
+
+      <year value="2001">
+        <city name="Mumbai" avgTemp="30.7"/>
+        <city name="Delhi" avgTemp="27.7"/>
+        <city name="Kolkata" avgTemp="29.2"/>
+        <city name="Chennai" avgTemp="31.5"/>
+        <city name="Puducherry" avgTemp="29.8"/>
+      </year>
+      <year value="2002">
+        <city name="Mumbai" avgTemp="30.8"/>
+        <city name="Delhi" avgTemp="27.9"/>
+        <city name="Kolkata" avgTemp="29.4"/>
+        <city name="Chennai" avgTemp="31.7"/>
+        <city name="Puducherry" avgTemp="30.0"/>
+      </year>
+      <year value="2003">
+        <city name="Mumbai" avgTemp="31.0"/>
+        <city name="Delhi" avgTemp="28.2"/>
+        <city name="Kolkata" avgTemp="29.7"/>
+        <city name="Chennai" avgTemp="31.9"/>
+        <city name="Puducherry" avgTemp="30.2"/>
+      </year>
+      <year value="2004">
+        <city name="Mumbai" avgTemp="31.2"/>
+        <city name="Delhi" avgTemp="28.5"/>
+        <city name="Kolkata" avgTemp="30.0"/>
+        <city name="Chennai" avgTemp="32.2"/>
+        <city name="Puducherry" avgTemp="30.5"/>
+      </year>
+      <year value="2005">
+        <city name="Mumbai" avgTemp="31.4"/>
+        <city name="Delhi" avgTemp="28.7"/>
+        <city name="Kolkata" avgTemp="30.3"/>
+        <city name="Chennai" avgTemp="32.5"/>
+        <city name="Puducherry" avgTemp="30.8"/>
+      </year>
+      <year value="2006">
+        <city name="Mumbai" avgTemp="31.6"/>
+        <city name="Delhi" avgTemp="29.0"/>
+        <city name="Kolkata" avgTemp="30.5"/>
+        <city name="Chennai" avgTemp="32.8"/>
+        <city name="Puducherry" avgTemp="31.0"/>
+      </year>
+      <year value="2007">
+        <city name="Mumbai" avgTemp="31.8"/>
+        <city name="Delhi" avgTemp="29.3"/>
+        <city name="Kolkata" avgTemp="30.7"/>
+        <city name="Chennai" avgTemp="33.0"/>
+        <city name="Puducherry" avgTemp="31.2"/>
+      </year>
+      <year value="2008">
+        <city name="Mumbai" avgTemp="32.0"/>
+        <city name="Delhi" avgTemp="29.6"/>
+        <city name="Kolkata" avgTemp="30.9"/>
+        <city name="Chennai" avgTemp="33.2"/>
+        <city name="Puducherry" avgTemp="31.5"/>
+      </year>
+
+      <year value="2009">
+        <city name="Mumbai" avgTemp="32.1"/>
+        <city name="Delhi" avgTemp="29.7"/>
+        <city name="Kolkata" avgTemp="31.1"/>
+        <city name="Chennai" avgTemp="33.3"/>
+        <city name="Puducherry" avgTemp="31.6"/>
+      </year>
+      <year value="2010">
+        <city name="Mumbai" avgTemp="32.3"/>
+        <city name="Delhi" avgTemp="30.0"/>
+        <city name="Kolkata" avgTemp="31.3"/>
+        <city name="Chennai" avgTemp="33.5"/>
+        <city name="Puducherry" avgTemp="31.8"/>
+      </year>
+      <year value="2011">
+        <city name="Mumbai" avgTemp="32.5"/>
+        <city name="Delhi" avgTemp="30.3"/>
+        <city name="Kolkata" avgTemp="31.6"/>
+        <city name="Chennai" avgTemp="33.8"/>
+        <city name="Puducherry" avgTemp="32.0"/>
+      </year>
+      <year value="2012">
+        <city name="Mumbai" avgTemp="32.7"/>
+        <city name="Delhi" avgTemp="30.6"/>
+        <city name="Kolkata" avgTemp="31.8"/>
+        <city name="Chennai" avgTemp="34.0"/>
+        <city name="Puducherry" avgTemp="32.3"/>
+      </year>
+      <year value="2013">
+        <city name="Mumbai" avgTemp="32.9"/>
+        <city name="Delhi" avgTemp="30.9"/>
+        <city name="Kolkata" avgTemp="32.1"/>
+        <city name="Chennai" avgTemp="34.2"/>
+        <city name="Puducherry" avgTemp="32.6"/>
+      </year>
+      <year value="2014">
+        <city name="Mumbai" avgTemp="33.1"/>
+        <city name="Delhi" avgTemp="31.2"/>
+        <city name="Kolkata" avgTemp="32.3"/>
+        <city name="Chennai" avgTemp="34.5"/>
+        <city name="Puducherry" avgTemp="32.8"/>
+      </year>
+      <year value="2015">
+        <city name="Mumbai" avgTemp="33.3"/>
+        <city name="Delhi" avgTemp="31.5"/>
+        <city name="Kolkata" avgTemp="32.6"/>
+        <city name="Chennai" avgTemp="34.7"/>
+        <city name="Puducherry" avgTemp="33.1"/>
+      </year>
+      <year value="2016">
+        <city name="Mumbai" avgTemp="33.5"/>
+        <city name="Delhi" avgTemp="31.8"/>
+        <city name="Kolkata" avgTemp="32.8"/>
+        <city name="Chennai" avgTemp="34.9"/>
+        <city name="Puducherry" avgTemp="33.4"/>
+      </year>
+      <year value="2017">
+        <city name="Mumbai" avgTemp="32.3"/>
+        <city name="Delhi" avgTemp="30.0"/>
+        <city name="Kolkata" avgTemp="31.5"/>
+        <city name="Chennai" avgTemp="32.8"/>
+        <city name="Puducherry" avgTemp="30.8"/>
+      </year>
+      <year value="2018">
+        <city name="Mumbai" avgTemp="32.6"/>
+        <city name="Delhi" avgTemp="30.2"/>
+        <city name="Kolkata" avgTemp="31.7"/>
+        <city name="Chennai" avgTemp="33.1"/>
+        <city name="Puducherry" avgTemp="31.1"/>
+      </year>
+      <year value="2019">
+        <city name="Mumbai" avgTemp="32.7"/>
+        <city name="Delhi" avgTemp="30.4"/>
+        <city name="Kolkata" avgTemp="32.0"/>
+        <city name="Chennai" avgTemp="33.2"/>
+        <city name="Puducherry" avgTemp="31.4"/>
+      </year>
+      <year value="2020">
+        <city name="Mumbai" avgTemp="32.5"/>
+        <city name="Delhi" avgTemp="29.9"/>
+        <city name="Kolkata" avgTemp="31.6"/>
+        <city name="Chennai" avgTemp="33.0"/>
+        <city name="Puducherry" avgTemp="31.1"/>
+      </year>
+    <!-- more years here... -->
+    <year value="2021">
+        <city name="Mumbai" avgTemp="32.1"/>
+        <city name="Delhi" avgTemp="30.2"/>
+        <city name="Kolkata" avgTemp="31.1"/>
+        <city name="Chennai" avgTemp="31.8"/>
+        <city name="Puducherry" avgTemp="30.0"/>
+      </year>
+      <year value="2022">
+        <city name="Mumbai" avgTemp="32.3"/>
+        <city name="Delhi" avgTemp="30.5"/>
+        <city name="Kolkata" avgTemp="31.3"/>
+        <city name="Chennai" avgTemp="32.0"/>
+        <city name="Puducherry" avgTemp="30.3"/>
+      </year>
+  </temperatures>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <title>Document</title>
+
+
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Raleway:400");
+
+    @property --angle {
+      syntax: '<angle>';
+      initial-value: 90deg;
+      inherits: true;
+    }
+
+    @property --gradX {
+      syntax: '<percentage>';
+      initial-value: 50%;
+      inherits: true;
+    }
+
+    @property --gradY {
+      syntax: '<percentage>';
+      initial-value: 0%;
+      inherits: true;
+    }
+
+    :root {
+      --d: 2500ms;
+      --angle: 90deg;
+      --gradX: 100%;
+      --gradY: 50%;
+      /* --c1: rgba(7, 5, 65, 0.907);
+      --c2: rgba(227, 238, 244, 0.911); */
+
+          --c1: rgb(255, 255, 255);
+      --c2: rgba(168, 239, 255, 0.1);
+    }
+
+
+    /*  */
+    body {
+      background-color: #001044bf;
+      /* background-color: #0f0051; */
+      font-family: Raleway, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .top {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .img_size {
+      height: 40px;
+      width: 60px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .img_con {
+      margin-right: 20px;
+      
+    }
+
+    /* margin: max(1rem, 3vw);
+	border: 0.35rem solid;
+	padding: 3vw;
+	border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+	animation: borderRotate var(--d) linear infinite forwards; */
+
+  @keyframes borderRotate {
+	100% {
+		--angle: 420deg;
+	}
+}
+
+@keyframes borderRadial {
+	20% {
+		--gradX: 100%;
+		--gradY: 50%;
+	}
+	40% {
+		--gradX: 100%;
+		--gradY: 100%;
+	}
+	60% {
+		--gradX: 50%;
+		--gradY: 100%;
+	}
+	80% {
+		--gradX: 0%;
+		--gradY: 50%;
+	}
+	100% {
+		--gradX: 50%;
+		--gradY: 0%;
+	}
+}
+   
+.con {
+      margin: max(1rem, 3vw);
+      border: 0.35rem solid;
+      padding: 3vw;
+      border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+      animation: borderRotate var(--d) linear infinite forwards;
+    /*  */
+    min-width: min(40rem, 100%);
+    width: 50%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 25px;
+    /* background: #a2a7bf; */
+    /* background: #a2a7bf; */
+    /* background-color: #0f0051; */
+    background-color: #0f0051;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(12, 2, 2, 0.69);
+    
+    }
+
+    .elements {
+
+      margin-bottom: 16px;
+      margin-right: 50px;
+      height: 30px;
+    }
+
+    .lab {
+      margin-top: 10px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.371);
+    }
+
+    h3 {
+      color: #ffffff;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container con">
+
+    <div class="row">
+      <div>
+        <form action="Transaction1" method="post">
+
+          <div class="form-group">
+            <h3>Welcome to Online Banking</h3>
+
+
+            <div class="top">
+              <p class="lab" id="h5_text">How would you like to pay?</p>
+              <img onclick="img_click(1)" class="img_size img_con" src="images/paypal.jpg">
+              <img onclick="img_click(2)" class="img_size img_con" src="images/rupay.jpg">
+              <img onclick="img_click(3)" class="img_size img_con" src="images/mastercard.png">
+              <img onclick="img_click(4)" class="img_size img_con" src="images/visa.png">
+
+            </div>
+
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="elements" name="f_name" placeholder="First Name">
+            <input type="text" class="elements" name="l_name" placeholder="Last Name"><br>
+            <label class="lab">Enter the Email</label>
+            <input type="text" name="email" class="form-control elements" placeholder="Email Address">
+            <label class="lab">Enter the Account Number</label>
+            <input type="text" name="accno" class="form-control elements" placeholder="*** **** **** ****">
+            <label class="lab">Expiration Date</label>
+            <input type="text" name="Ex_date" class="form-control elements" placeholder="MM/YYYY">
+            <label class="lab">Enter CVV</label>
+            <input type="password" name="pinno" class="form-control elements" placeholder="CVV">
+
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script>
+
+    function img_click(flag) {
+
+      var set_card = "";
+      if (flag == 1)
+        set_card = "PayPal"
+      else if (flag == 2)
+        set_card = "RuPay"
+      else if (flag == 3)
+        set_card = "Visa"
+      else if (flag == 4)
+        set_card = "MasterCard"
+
+      document.getElementById("h5_text").innerText = "Paying via " + set_card;
+    }
+
+  </script>
+
+</body>
+
+</html>
